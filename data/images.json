@@ -1,0 +1,51 @@
+"myImages": [
+			{
+				"id": "recycling",
+				"src": "images/aluminum-cans.png"
+			},
+			{
+				"id": "recycling",
+				"src": "images/brownbag.png"
+			},
+			{
+				"id": "compost",
+				"src": "images/sushi.png"
+			},
+			{
+				"id": "compost",
+				"src": "images/teabag.png"
+			},
+			{
+				"id": "recycling",
+				"src": "images/aluminum-foil.png"
+			},
+			{
+				"id": "trash",
+				"src": "images/chip_bag.png"
+			},
+			{
+				"id": "compost",
+				"src": "images/napkin.png"
+			},
+			{
+				"id": "trash",
+				"src": "images/styrofoam.png"
+			},
+			{
+				"id": "compost",
+				"src": "images/compostable_plasticcup.png"
+			},
+			{
+				"id": "compost",
+				"src": "images/papercoffeecup.png"
+			},
+			{
+				"id": "compost",
+				"src": "images/apple.png"
+			},
+			{
+				"id": "trash",
+				"src": "images/ketchup_mustard_packets.png"
+			}
+			
+		]

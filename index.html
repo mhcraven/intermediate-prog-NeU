@@ -1,0 +1,89 @@
+<!doctype html>
+<html class="yui3-js-enabled" lang="en">
+<head>
+
+	<title>Which Bin?</title>
+
+	<meta charset="utf-8">
+	<link href='http://fonts.googleapis.com/css?family=Gabriela' rel='stylesheet' type='text/css'>
+	<script src="http://yui.yahooapis.com/3.9.0/build/yui/yui-min.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	
+	<audio id="good-sound">
+	   <source src="audio/correct.wav" type="audio/wav" codecs="wav">
+	   <!-- add your fallback solution here -->
+	</audio>
+
+	<audio id="bad-sound">
+	   	<source src="audio/wrong.wav" type="audio/wav" codecs="wav">
+	   <!-- add your fallback solution here -->
+	</audio>
+
+	<audio id="intro-music">
+	   	<source src="audio/background-music.wav" type="audio/wav" codecs="wav">
+	   <!-- add your fallback solution here -->
+	</audio>
+
+	<audio id="bell-sound">
+	   	<source src="audio/bell.wav" type="audio/wav" codecs="wav">
+	   <!-- add your fallback solution here -->
+	</audio>
+
+	<header>
+		<h1>Which Bin?</h1>
+	</header>
+
+	<section id="middle">
+		<div id="introScreen" class="screen">
+			<p id="intro">	
+				Instructions: <br>Dispose of as many items as you can in 20 seconds! Earn points if you dispose of the item in the correct bin. Lose points if you dispose of the item in the wrong bin.
+			</p>
+			<input id="start-button" type="button" value="PLAY">
+		</div>
+
+		<div id="endScreen" class="no-screen">
+			<p id="saveScoreOpt">	</p>
+			<input id="user-name" type="input" value="">
+			<input id="save-button" type="button" value="ADD NAME">
+			<input id="playAgain-button" type="button" value="PLAY AGAIN">
+			<input id="end-button" type="button" value="END GAME">
+		</div>
+
+		<div id="stats">
+			<div id="counter">
+  				<h2>Time remaining</h2>
+  				<p id="count">20</p>
+  			</div>	
+			<div id="points">
+  				<h2> Points</h2>
+  				<p id="score" class="">0</p>
+  			</div>	
+  			<div id="leader-board">
+  				<h2>Top Players:</h2>
+  				<p id="scoreboard"></p>
+  			</div>	  
+  			<!--<input id="clear-scores" type="button" value="CLEAR SCORES">-->
+	  	</div>
+
+	</section>
+
+		<img id="theItem" class="drag" draggable="true" width="40%" height="" />
+		
+	<section>
+		<div id="bins">
+			<img id="binR" class="target" src="images/singlestream.png" draggable="false" alt="Single Stream Recycling Bin" width="" height=""/>
+			<img id="binT" class="target" src="images/trash.png" draggable="false" alt="Trash Bin" width="" height=""/>
+			<img id="binC" class="target" src="images/compost.png" draggable="false" alt="Compost Bin" width="" height=""/>
+		</div>
+		<input id="pauseMusic-button" type="button" value="PAUSE MUSIC">
+	</section>
+
+
+<!-- javascript -->
+<script src="js/script.js"></script>
+  
+</body>
+</html>
